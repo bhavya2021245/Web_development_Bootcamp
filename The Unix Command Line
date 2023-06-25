@@ -1,0 +1,20 @@
+the kernel refers to the actual program that interfaces with the hardware shell refers to the 
+user interface a human is able to interact with the kernel and in turn hardware two shells 
+graphical user interface shells and command line interface shells
+BASH is Bourne Again SHell it is a CLI for Unix system
+ls (stands for list) lists all the items inside a particular directory
+~ shows I am in the user directory
+cd (change directory)
+cd.. (take one level back)
+to edit anything in the command you typed just press alt and it will show plus 
+sign then just change it
+ctrl A  we can go to the beginning of command
+ctrl E  we can go to the end of command
+ctrl U clear the command
+touch bhavya.txt will create a new file
+start bhavya.txt will open the file in default application ie notepad
+code bhavya.txt opens file in vs code
+rm bhavya.txt will remove the file
+pwd (print working directory) tells you your entire path and folder location
+rm* will remove all files in the current directory
+rm -r bhavya it will remove bhavya directory we have to add (-r) after rm to remove directory
