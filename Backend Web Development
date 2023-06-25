@@ -1,0 +1,21 @@
+Backend
+The server which is basically just a computer
+application which is all the logic that enables the web app to function
+(how to respond to the requests from the browser) a database where you can store and 
+retrieve user data
+web pages are just bits of HTML that get requested from the browser to our server and server 
+then returns that HTML file that gets rendered on the browser.
+Firstly, you enter the restaurant.you take a look at the menu, which essentially is all 
+of the functionality that this particular web app has. So you click on this button on a website 
+or in the case of our restaurant, you tell the waiter your order from the menu, and then what the 
+waiter is going to do is he's going to traverse from the front end to the back end. And this is 
+what happens when your browser sends that request to your server. The server is effectively the 
+same as the kitchen in the restaurant. It's open 24 over seven.That's coming from our waiter, from 
+the front end, from the restaurant and in the server there areapplications, which is basically our chefs.
+And what our chefs are able to do is they have lots of recipes.They know exactly how to respond to different requests from the client.
+It checks the recipe it sees.Oh, we need some data from our database.If we imagine the pantry as the database of the restaurant, then what the chef or the 
+application isgoing to do is going to request those ingredients or those pieces of data to process it or work withit somehow.And then at the end, it's going to 
+send back a response to the front end.
+So in this case, we got some pancakes that were made in the kitchen and sent into the front of house,
+which is the restaurant, and in our server that could be some HTML, CSS and JavaScript files that
+got created or retrieved and sent over to the front end.
