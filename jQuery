@@ -1,0 +1,33 @@
+$("h1") does exactly the same as document.querySelector ("h1")
+($ is not defined) so if we don't have any jQuery then it's not really going to work. so 
+incorporate it using the script tag and we're going to paste that above our Javascript script tag.
+Now because the browser does not care about tabs, indents, spaces, and comments it completely
+ignores all of it there is no point in asking the user to load up all of this unnecessary info, 
+and by minifying it we get rid of those things and make our web site load much faster.
+there's no difference between selecting one or selecting many.
+we can manipulate the CSS style of the selected element by simply using the .css method from jquery
+$(h1).css(add property we want to change,the value for that property)
+it is flexible as you can get the current value of CSS property by simply having the 
+name of the property. but we have to keep separate the styling from javascript so just add a class to that element using 
+.addClass and also remove class to add multiple classes all we need to do is just include them inside the same set of quotation marks.
+.hasClass method to check whether the element has that particular class.
+using inner HTML we not just update text but we were also able to add HTML so as we are using jQuery use .html only
+$("button").text("<em>Hey</em>") output is <em>Hey</em> it will ignore html tags 
+but $("button").html("<em>Hey</em>") output is hey(em tag is for emphasized tag)
+get the value of the attribute using .attr("name of attribute") for eg src in img and href in link
+to set the attribute .attr("name of attribute", "value") class is also the attribute
+.click(function() {});
+This will add an event listener and call this callback function once it detects a click for adding event listeners to all buttons we 
+do not have to loop because by selecting a button jquery will look through your website and select all of the buttons and if you combine that with the click 
+method then this will add this click listener to all the buttons that it finds without using a loop.
+on method, two parameters first one is the event that ur looking for the second parameter is the callback function
+add new elements while our website is live using before,after, prepend and append
+diff bw prepend and before new element before the opening tag of the selected element
+after: new element after the closing tag of the selected element
+prepend: add an element just before the content of the selected element
+append:  add element just after the content of the selected element
+$("h1").hide so when we click any button in our web page it should try to hide h1
+.show() to show if toggle hide and show then use .toggle
+.animate allows you to animate inside parenthesis we can insert a 
+set of curly braces and inside the curly braces we are going to add our CSS rule that 
+we are going to animate to(only rules which have numeric value)
