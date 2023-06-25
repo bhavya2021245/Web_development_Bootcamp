@@ -1,0 +1,4 @@
+select the button inside HTML and add an event listener that listens when it gets clicked
+means this button will listen for every time the user clicks on it.
+In add event listener instead of calling our function as we would with parenthesis 
+we are passing the function name as input.
